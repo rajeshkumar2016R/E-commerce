@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- =========== link to fontawesome ================ -->
+    <script src="https://kit.fontawesome.com/e944101661.js" crossorigin="anonymous"></script>
+    <!-- =========== link to swiper-css ================ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- =========== link to css ================ -->
+    <link rel="stylesheet" href="style.css">
+    <title>E commerce Wbsite</title>
+</head>
+
+<body>
+    <!-- ========== header start =============== -->
+    <header>
+        <a class="logo" href="#">Kingdom</a>
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+        </nav>
+        <button class="active-popup"><i class="fa-solid fa-right-to-bracket"></i>Log In</button>
+        <i class="fa-solid fa-bars menu-btn"></i>
+    </header>
+    <!-- ========== header end =============== -->
+
+    <!-- ========== log in start =============== -->
+    <div class="wrapper">
+        <i class="fa-solid fa-xmark closeBtn"></i>
+        <!-- ======== login section start ========== -->
+        <div class="form-box login">
+            <h1>Log In</h1>
+            <form action="">
+                <div class="input-box">
+                    <span><i class="fa-solid fa-envelope"></i></span>
+                    <input type="Email" required>
+                    <label>E-mail</label>
+                </div>
+                <div class="input-box">
+                    <span><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="forget">
+                    <input type="checkbox" required>
+                    <label>Remember Me</label>
+                    <a href="" class="forget-password">Forget Password</a>
+                </div>
+                <button class="loginBtn">Log In</button>
+                <div class="account">
+                    <p>If don't have account! <a href="#" class="login-link">Resister</a></p>
+                </div>
+            </form>
+        </div>
+        <!-- ======== login section end ========== -->
+
+        <!-- ======== resistration section start ========== -->
+        <div class="form-box resister">
+            <h1>Resistration</h1>
+            <form action="">
+                <div class="input-box">
+                    <span><i class="fa-solid fa-user"></i></span>
+                    <input type="name" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span><i class="fa-solid fa-envelope"></i></span>
+                    <input type="Email" required>
+                    <label>E-mail</label>
+                </div>
+                <div class="input-box">
+                    <span><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="forget">
+                    <input type="checkbox" required>
+                    <label>Accept the term & conditions.</label>
+                </div>
+                <button class="loginBtn">Resister</button>
+                <div class="account">
+                    <p>If don't have account! <a href="#" class="resister-link">LogIn</a></p>
+                </div>
+            </form>
+        </div>
+         <!-- ======== resistration section end ========== -->
+    </div>
+    <!-- ======== log in end ========== -->
+
+
+    <!-- ================ home section start ============== -->
+    <section class="home">
+         <!-- ================ home img start ============== -->
+        <div class="home-img">
+            <img src="images/BIG IMAGE/bg1.jpg" alt="">
+            <div class="home-text">
+                <h4>Trade-In-Offer</h4>
+                <h1>Super value deals<br><span>On all products</span>.</h1>
+                <h6>Save More With Coupons & up to 70% off !</h6>
+                <div class="button">
+                    <a href="" class="btn">Shop Now</a>
+                </div>
+            </div>
+        </div>
+         <!-- ================ home simg end ============== -->
+    </section>
+     <!-- ================ home section end ============== -->
+
+
+     <!-- ================== order section start =========== -->
+    <section class="order section">
+        <!-- ================== order content 1 =========== -->
+        <div class="order-content">
+            <img src="images/featured/images.jpg" alt="">
+            <h5>Free Shipping</h5>
+        </div>
+        <!-- ================== order content 2 =========== -->
+        <div class="order-content">
+            <img src="images/featured/images (3).jpg" alt="">
+            <h5>Online Order</h5>
+        </div>
+        <!-- ================== order content 3 =========== -->
+        <div class="order-content">
+            <img src="images/featured/download.jpg" alt="">
+            <h5>Save Money</h5>
+        </div>
+        <!-- ================== order content 4 =========== -->
+        <div class="order-content">
+            <img src="images/featured/images (1).jpg" alt="">
+            <h5>Promotions</h5>
+        </div>
+        <!-- ================== order content 5 =========== -->
+        <div class="order-content">
+            <img src="images/featured/images (2).jpg" alt="">
+            <h5>Happy sell</h5>
+        </div>
+        <!-- ================== order content 6 =========== -->
+        <div class="order-content">
+            <img src="images/featured/download (1).jpg" alt="">
+            <h5>F24/7 Support</h5>
+        </div>
+    </section>
+    <!-- ================== order section start =========== -->
+
+    <!-- ================== featured section start =========== -->
+    <section class="featured-pro section">
+        <div class="heading-product">
+            <h1>Featured Product</h1>
+            <p>Summer Collection New Modern Design</p>
+        </div>
+        <!-- ================== featured content start =========== -->
+        <div class="featured-content">
+            <!-- ========== product 1 ============= -->
+            <div class="featured-img" onclick="window.location.href='product.html'">
+                <img src="images/SHIRT/xxl-black-pocket-hoodie-bfb-men-original-imagj23qtnrzdyz5.webp" alt="">
+                <div class="featured-text">
+                    <p>addidas</p>
+                    <h4>Cartoon Astronaut T-Shirts</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3><i class="fa-solid fa-dollar-sign"></i>78</h3>
+                    <div class="side-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- ========== product 2 ============= -->
+            <div class="featured-img">
+                <img src="images/SHIRT/xxl-beard-yfb-original-imagjkh3mzdcb7zv.webp" alt="">
+                <div class="featured-text">
+                    <p>addidas</p>
+                    <h4>Cartoon Astronaut T-Shirts</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3><i class="fa-solid fa-dollar-sign"></i>78</h3>
+                    <div class="side-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- ========== product 3 ============= -->
+            <div class="featured-img">
+                <img src="images/SHIRT/xs-sw21-blly-eyebogler-original-imagfrw9nt7bmf9g.webp" alt="">
+                <div class="featured-text">
+                    <p>addidas</p>
+                    <h4>Cartoon Astronaut T-Shirts</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3><i class="fa-solid fa-dollar-sign"></i>78</h3>
+                    <div class="side-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- ========== product 4 ============= -->
+            <div class="featured-img">
+                <img src="images/SHIRT/xl-cap-i-love-one-nb-nicky-boy-original-imagfrrythnsgfy3.webp" alt="">
+                <div class="featured-text">
+                    <p>addidas</p>
+                    <h4>Cartoon Astronaut T-Shirts</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3><i class="fa-solid fa-dollar-sign"></i>78</h3>
+                    <div class="side-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- ========== product 5 ============= -->
+            <div class="featured-img">
+                <img src="images/SHIRT/xs-sw21-blly-eyebogler-original-imagfrw9nt7bmf9g.webp" alt="">
+                <div class="featured-text">
+                    <p>addidas</p>
+                    <h4>Cartoon Astronaut T-Shirts</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3><i class="fa-solid fa-dollar-sign"></i>78</h3>
+                    <div class="side-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- ========== product 6 ============= -->
+            <div class="featured-img">
+                <img src="images/SHIRT/s-half-triangel-black-one-nb-nicky-boy-original-imagmhzyv6b64vfb.webp" alt="">
+                <div class="featured-text">
+                    <p>addidas</p>
+                    <h4>Cartoon Astronaut T-Shirts</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3><i class="fa-solid fa-dollar-sign"></i>78</h3>
+                    <div class="side-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- ========== product 7 ============= -->
+            <div class="featured-img">
+                <img src="images/SHIRT/s-half-star-one-nb-nicky-boy-original-imagm98snqqacghb.webp" alt="">
+                <div class="featured-text">
+                    <p>addidas</p>
+                    <h4>Cartoon Astronaut T-Shirts</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3><i class="fa-solid fa-dollar-sign"></i>78</h3>
+                    <div class="side-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- ========== product 8 ============= -->
+            <div class="featured-img">
+                <img src="images/SHIRT/m-sw21-ibmd-eyebogler-original-imagfrw9cbbyzdxd.webp" alt="">
+                <div class="featured-text">
+                    <p>addidas</p>
+                    <h4>Cartoon Astronaut T-Shirts</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3><i class="fa-solid fa-dollar-sign"></i>78</h3>
+                    <div class="side-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- ========== product 9 ============= -->
+            <div class="featured-img">
+                <img src="images/SHIRT/m-st-boxhead-black-smartees-original-imaggegtpgz5dhjj.webp" alt="">
+                <div class="featured-text">
+                    <p>addidas</p>
+                    <h4>Cartoon Astronaut T-Shirts</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3><i class="fa-solid fa-dollar-sign"></i>78</h3>
+                    <div class="side-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- ========== product 10 ============= -->
+            <div class="featured-img">
+                <img src="images/SHIRT/l-st-xoxo-navyblue-smartees-original-imaggfkebugny4we.webp" alt="">
+                <div class="featured-text">
+                    <p>addidas</p>
+                    <h4>Cartoon Astronaut T-Shirts</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3><i class="fa-solid fa-dollar-sign"></i>78</h3>
+                    <div class="side-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- ========== product 11 ============= -->
+            <div class="featured-img">
+                <img src="images/SHIRT/xxl-t2-blrd-sw-eyebogler-original-imaggssajxrjfhvz.webp" alt="">
+                <div class="featured-text">
+                    <p>addidas</p>
+                    <h4>Cartoon Astronaut T-Shirts</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3><i class="fa-solid fa-dollar-sign"></i>78</h3>
+                    <div class="side-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- ========== product 12 ============= -->
+            <div class="featured-img">
+                <img src="images/SHIRT/s-half-star-one-nb-nicky-boy-original-imagm98snqqacghb.webp" alt="">
+                <div class="featured-text">
+                    <p>addidas</p>
+                    <h4>Cartoon Astronaut T-Shirts</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3><i class="fa-solid fa-dollar-sign"></i>78</h3>
+                    <div class="side-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ================== featured content end =========== -->
+    </section>
+    <!-- ================== featured section end =========== -->
+
+    <!-- ================== slider section start =========== -->
+    <section class="slider-container">
+        <div class="slider-content mySwiper">
+            <div class="swiper-wrapper">
+                <!-- ======= slide 1 ========== -->
+                <div class="swiper-slide">
+                    <div class="slider-img">
+                        <img src="images/BIG IMAGE/slider (1).jpg" alt="">
+                    </div>
+                </div>
+                <!-- ======= slide 2 ========== -->
+                <div class="swiper-slide">
+                    <div class="slider-img">
+                        <img src="images/BIG IMAGE/slider1 (5).jpg" alt="">
+                    </div>
+                </div>
+                <!-- ======= slide 3 ========== -->
+                <div class="swiper-slide">
+                    <div class="slider-img">
+                        <img src="images/BIG IMAGE/slider (2).jpg" alt="">
+                    </div>
+                </div>
+                <!-- ======= slide 4 ========== -->
+                <div class="swiper-slide">
+                    <div class="slider-img">
+                        <img src="images/BIG IMAGE/slider1 (1).jpg" alt="">
+                    </div>
+                </div>
+                <!-- ======= slide 5 ========== -->
+                <div class="swiper-slide">
+                    <div class="slider-img">
+                        <img src="images/BIG IMAGE/slider1 (2).jpg" alt="">
+                    </div>
+                </div>
+                <!-- ======= slide 6 ========== -->
+                <div class="swiper-slide">
+                    <div class="slider-img">
+                        <img src="images/BIG IMAGE/slider1 (3).jpg" alt="">
+                    </div>
+                </div>
+                <!-- ======= slide 7 ========== -->
+                <div class="swiper-slide">
+                    <div class="slider-img">
+                        <img src="images/BIG IMAGE/slider1 (4).jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <!-- ================== slider section end =========== -->
+
+    <!-- ================== arrival section start =========== -->
+    <section class="arrivals section">
+        <div class="heading-product">
+            <h1>New Arrivals</h1>
+            <p>Summer Collection New Modern Design</p>
+        </div>
+         <!-- ================== arrival content start =========== -->
+        <div class="arrivals-content">
+            <!-- ============= image1 ============== -->
+            <div class="arrivals-img">
+                <img src="images/STYLE/11391306-40-u-s-polo-assn-white-original-imafsnetwnyzu8x2.webp" alt="">
+                <div class="arrivals-text">
+                    <p>addidas</p>
+                    <h4>Cartoon Astronaut T-Shirts</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3><i class="fa-solid fa-dollar-sign"></i>78</h3>
+                    <div class="side-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- ============= image2 ============== -->
+            <div class="arrivals-img">
+                <img src="images/STYLE/f1ffa6330a602013.webp" alt="">
+                <div class="arrivals-text">
+                    <p>addidas</p>
+                    <h4>Cartoon Astronaut T-Shirts</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3><i class="fa-solid fa-dollar-sign"></i>78</h3>
+                    <div class="side-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- ============= image3 ============== -->
+            <div class="arrivals-img">
+                <img src="images/STYLE/m-9298233-mast-harbour-original-imafm78vbfvdzph7.webp" alt="">
+                <div class="arrivals-text">
+                    <p>addidas</p>
+                    <h4>Cartoon Astronaut T-Shirts</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3><i class="fa-solid fa-dollar-sign"></i>78</h3>
+                    <div class="side-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- ============= image4 ============== -->
+            <div class="arrivals-img">
+                <img src="images/STYLE/m-1596-fs-maple-killer-original-imagasvf8qupbpuz.webp"
+                    alt="">
+                <div class="arrivals-text">
+                    <p>addidas</p>
+                    <h4>Cartoon Astronaut T-Shirts</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3><i class="fa-solid fa-dollar-sign"></i>78</h3>
+                    <div class="side-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- ============= image5 ============== -->
+            <div class="arrivals-img">
+                <img src="images/STYLE/premium-luxury-business-casual-trendy-water-resistant-original-imafnzmembfxdyhv.webp"
+                    alt="">
+                <div class="arrivals-text">
+                    <p>addidas</p>
+                    <h4>Cartoon Astronaut T-Shirts</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3><i class="fa-solid fa-dollar-sign"></i>78</h3>
+                    <div class="side-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- ============= image6 ============== -->
+            <div class="arrivals-img">
+                <img src="images/STYLE/s-7224489-hrx-by-hrithik-roshan-original-imafghfrgedw3zq8.webp" alt="">
+                <div class="arrivals-text">
+                    <p>addidas</p>
+                    <h4>Cartoon Astronaut T-Shirts</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3><i class="fa-solid fa-dollar-sign"></i>78</h3>
+                    <div class="side-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- ============= image7 ============== -->
+            <div class="arrivals-img">
+                <img src="images/STYLE/s-14806378-mast-harbour-original-imag76r6ba6kgj8f.webp" alt="">
+                <div class="arrivals-text">
+                    <p>addidas</p>
+                    <h4>Cartoon Astronaut T-Shirts</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3><i class="fa-solid fa-dollar-sign"></i>78</h3>
+                    <div class="side-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- ============= image8 ============== -->
+            <div class="arrivals-img">
+                <img src="images/SHIRT/32-khtr000255-ketch-original-imagamypfwkxjyjb.webp"
+                    alt="">
+                <div class="arrivals-text">
+                    <p>addidas</p>
+                    <h4>Cartoon Astronaut T-Shirts</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3><i class="fa-solid fa-dollar-sign"></i>78</h3>
+                    <div class="side-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- ================== arrival content end =========== -->
+    </section>
+    <!-- ================== arrival section end =========== -->
+
+    <!-- ================== discount section start =========== -->
+    <section class="discount">
+        <!-- ================== discount content start =========== -->
+        <div class="d-content">
+            <!-- ============ discount-image-1 ============== -->
+            <div class="d-img">
+                <img src="images/BIG IMAGE/image1.jpg" alt="">
+                <div class="d-text">
+                    <h6>Crazy Deals</h6>
+                    <h1>Buy One Get One Free</h1>
+                    <p>The best classic dresses is on sale</p>
+                    <a href="" class="d-btn">Shop Now</a>
+                </div>
+            </div>
+            <!-- ============ discount-image-2 ============== -->
+            <div class="d-img">
+                <img src="images/BIG IMAGE/image2.jpg" alt="">
+                <div class="d-text">
+                    <h6>Spring / Summer</h6>
+                    <h1 class="up">Upcomming seasons</h1>
+                    <p>The best classic dresses is on sale</p>
+                    <a href="" class="c-btn">Collection</a>
+                </div>
+            </div>
+        </div>
+        <!-- ================== discount content end =========== -->
+    </section>
+    <!-- ================== discount section end =========== -->
+
+    <!-- =========== discount container start ========= -->
+    <section class="new-container">
+        <!-- =========== discount content start ========= -->
+        <div class="new-content">
+            <!-- ============= discount-img ========== -->
+            <div class="new-img">
+                <img src="images/BIG IMAGE/image6.jpg" alt="">
+                <div class="new-text">
+                    <h1>season sale</h1>
+                    <p>Winter collection -50% OFF</p>
+                </div>
+            </div>
+            <!-- ============= discount-img ========== -->
+            <div class="new-img">
+                <img src="images/BIG IMAGE/image5.jpg" alt="">
+                <div class="new-text">
+                    <h1>New Collection</h1>
+                    <p>Spring / summer 2023</p>
+                </div>
+            </div>
+            <!-- ============= discount-img ========== -->
+            <div class="new-img">
+                <img src="images/BIG IMAGE/image7.avif" alt="">
+                <div class="new-text">
+                    <h1>T-shirt</h1>
+                    <p>New trendy printed</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- =========== discount content start ========= -->
+    </section>
+    <!-- =========== discount container start ========= -->
+
+    <!-- ======= explore section start ============= -->
+    <section class="explore">
+        <div class="explore-img">
+            <img src="images/BIG IMAGE/explore1.avif" alt="">
+            <div class="explore-text">
+                <p>Repair Services</p>
+                <h1>Up to <span>70% off</span>- All T-shirts & Accessories</h1>
+                <a href="" class="explore-btn">Explore More</a>
+            </div>
+        </div>
+    </section>
+    <!-- ======= explore section end ============= -->
+
+    <!-- ======= footer section start ============= -->
+    <section class="footer section">
+        <!-- ======= footer content start ============= -->
+        <div class="footer-content">
+            <!-- ======= footer contact section start ============= -->
+            <div class="footer-contact">
+                <a class="logo" href="#">Kingdom</a>
+                <div class="contact">
+                    <h4>contact</h4>
+                    <P><span>Address :</span> Bhubaneswar, Hitech, India</P>
+                    <P><span>Phone :</span> +01 2222 356 /(+91) 01 2354 789</P>
+                    <P><span>Hours :</span> 10.00-18.00, Mon-sat</P>
+                    <div class="follow-us">
+                        <h4>Follow Us</h4>
+                        <div class="follow-us-links">
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+                            <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ======= footer contact section end ============= -->
+
+            <!-- ======= footer about section start ============= -->
+            <div class="footer-header">
+                <h4>About</h4>
+                <div class="footer-links">
+                    <a href="">About us</a>
+                    <a href="">Delivery information</a>
+                    <a href="">privacy policy</a>
+                    <a href="">Terms & conditions</a>
+                    <a href="">Contact Us</a>
+                </div>
+            </div>
+            <!-- ======= footer about section end ============= -->
+
+            <!-- ======= footer  account section start ============= -->
+            <div class="footer-header">
+                <h4>My Account</h4>
+                <div class="footer-links">
+                    <a href="">Sign In</a>
+                    <a href="">View cart</a>
+                    <a href="">My Whislist</a>
+                    <a href="">Track My Order</a>
+                    <a href="">Help</a>
+                </div>
+            </div>
+            <!-- ======= footer account section end ============= -->
+
+            <!-- ======= footer install app section start ============= -->
+            <div class="footer-header">
+                <h4>Install App</h4>
+                <p>From App Store or Play Store</p>
+                <div class="store">
+                    <div class="i-store">
+                        <a href=""><i class="fa-brands fa-apple"></i>
+                        <div class="i-text">
+                            <span>Download On The</span>
+                            <h1>App Store</h1>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="play-store">
+                        <a href=""><i class="fa-brands fa-google-play"></i>
+                        <div class="play-text">
+                            <span>Download On The</span>
+                            <h1>Play Store</h1>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <h6 class="payment">Secured App Payment Gateways</h6>
+                <!-- ====== footer payment img =========== -->
+                <div class="payment-option">
+                    <div class="payment-img">
+                        <a href=""><img src="images/payment/visa-logo.png" alt=""></a>
+                    </div>
+                    <div class="payment-img">
+                        <a href=""><img src="images/payment/master-logo.png" alt=""></a>
+                    </div>
+                    <div class="payment-img">
+                        <a href=""><img src="images/payment/discover-logo.png" alt=""></a>
+                    </div>
+                    <div class="payment-img">
+                        <a href=""><img src="images/payment//american-logo.png" alt=""></a>
+                    </div>
+                </div>
+                <!-- ====== footer payment img end =========== -->
+            </div>
+            <!-- ======= footer install section end ============= -->
+        </div>
+        <!-- ======= footer content end ============= -->
+
+        <!-- ======= copyright start ============= -->
+        <div class="copyright">
+            <h6><i class="fa-regular fa-copyright"></i>Created By <span>Web Developer </span>| All Right Reserved!</h6>
+        </div>
+    </section>
+    <!-- ======= footer section end ============= -->
+
+
+    <!-- ============ link to swiper js ============== -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- ============ link to js ============== -->
+    <script src="script.js"></script>
+</body>
+
+</html>
